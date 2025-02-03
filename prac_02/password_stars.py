@@ -1,3 +1,8 @@
+"""
+Zhu Zhiwei
+
+"""
+
 # PASSWORD_LENGTH = 10
 # def main():
 #     password = input("Enter your password: ")
@@ -20,3 +25,4 @@ while password <= PASSWORD_LENGTH:
 length = len(password)
 
 print(length * "*")
+
