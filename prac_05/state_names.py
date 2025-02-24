@@ -1,21 +1,28 @@
-def main():
-    incomes = []
-    month_number = int(input("How many months? "))
+"""
+CP1404/CP5632 Practical
+State names in a dictionary
+File needs reformatting
+"""
 
-    for month in range(1, month_number + 1):
-        income = float(input(f"Enter income for month {month}:"))
-        incomes.append(income)
+# Dictionary mapping state codes to state names
+CODE_TO_NAME = {
+    "QLD": "Queensland",
+    "NSW": "New South Wales",
+    "NT": "Northern Territory",
+    "WA": "Western Australia",
+    "ACT": "Australian Capital Territory",
+    "VIC": "Victoria",
+    "TAS": "Tasmania",
+    "SA": "South Australia"
+}
 
-    print("\nIncome Report\n-------------")
-    print_report(incomes, month_number)
+print(CODE_TO_NAME)
 
-
-def print_report(incomes, month_number):
-    total = 0
-    for month in range(1, month_number + 1):
-        income = incomes[month - 1]
-        total += income
-        print("Month {:2} - Income: ${:10.2f} Total: ${:10.2f}".format(month, income, total))
-
-
-main()
+# Prompt user for state code and display corresponding state name
+state_code = input("Enter short state: ")
+while state_code != "":
+    if state_code in CODE_TO_NAME:
+        print(f"{state_code} is {CODE_TO_NAME[state_code]}")
+    else:
+        print("Invalid short state")
+    state_code = input("Enter short state: ")
