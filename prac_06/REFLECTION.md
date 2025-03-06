@@ -13,11 +13,11 @@ In terms of time, I will misestimate the time needed, and now I am in a passive 
 
 ## What are you doing well in the subject so far that you will keep doing?
 
-Not very good. But in the future, when I have a problem, I will take the initiative to change
+Not very good. But in the future, when I have a problem, I will take the initiative to change.
 
 ## What do you need to stop or change in your work for this subject overall so far?
 
-I should change my negative attitude, stop wasting time and improve my study efficiency
+I should change my negative attitude, stop wasting time and improve my study efficiency.
 
 ## What is one request you have or change you suggest for this subject and/or your IT degree overall?
 
